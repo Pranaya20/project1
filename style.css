@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding:0px;
+    /* background-color: #f5f5f5; */
+    background-color: #fff;
+    overflow-y: hidden;
+}
+.navbar{
+    /* background-color: yellow; */
+    
+}
+nav{
+    display:flex;
+    justify-content: space-around; 
+    align-items:center;
+    margin-top: 40px;
+}
+.navbar-container{
+    /* display:flex; */
+}
+.list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list-item{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+    word-spacing: 30px;
+}
+
+.button-group{
+    display:flex; 
+}
+.nav-button{
+    width:100%;
+    padding:8px 40px 8px 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 16px;
+    background-color: #fff;
+  
+}
+.search-icon{
+    position:relative;
+    top:14px;
+    margin-right: 10px;
+    
+}
+/* Hero Banner Section  */
+.banner{
+    margin: 90px;   
+    
+    /* position: absolute; */
+}
+.hero-container{
+   display:flex;
+  
+   
+}
+.hero-image{
+    width:400px;
+    height:50%;
+}
+.square-pattern{
+    width: 300px;
+   position: relative;
+   bottom:31%;
+   left:38%;
+   z-index: -1;
+
+}
+.left-hero-container{
+    width:0% 60%;
+}
+.right-hero-container{
+    margin-left: 80px;
+    
+}
+.hero-container-right{
+    text-align: center;
+   
+}
+.hero-heading{
+    font-size: 90px;
+    margin-left: 80px;
+    margin: auto;
+    float:right;
+    /* font-family: 'Teko', sans-serif; */
+    font-family: 'Rajdhani', sans-serif;
+   
+}
+.hero-description{
+    margin: 30px;
+    padding-left: 176px;
+    padding-right: 116px;
+    color:gray;
+    
+}
+.button-container{
+    margin-top: 89px;
+    margin-bottom: 89px;
+}
+.button-email{
+    width:25%;
+    padding:2px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color:gray;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #fff;
+}
+.button-join{
+    width:15%;
+    padding:2px;
+    border-radius: 10px;
+    font-size: 20px;
+    color:#fff;
+    background-color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+.globe{
+    position: relative;
+    bottom: 20px;
+    left: 187px;
+}
+.star{
+     /* float: right;  */
+     position:relative;
+    left:800px; 
+    width:30px;
+   
+}
+.starimage{
+    width:60px;
+}
+.globe-image{
+    width:60px;
+}
+.left-star{
+    float:left;
+}
+.left-starimage{
+    width:50px;
+    height:50px;
+}
+.social-icon{
+    margin-left: 10px;
+    width: 31px;
+}
